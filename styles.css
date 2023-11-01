@@ -230,6 +230,98 @@
   color: white;
 }
 
+.comprar-tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 2px;
+  width: 240px;
+  height: 220px;
+  border-radius: 0px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card h4 {
+  /* font-weight: bold; */
+  font-size: 22px;
+}
+
+.card h5 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.card-text {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.documentacion{
+  font-size: 15px;
+}
+
+.box-1 {
+  border: 2px solid blue;
+}
+
+.box-1:hover {
+  background-color: rgb(120, 120, 238);
+}
+
+.box-2 {
+  border: 2px solid green;
+}
+
+.box-2:hover {
+  background-color: rgb(69, 218, 69);
+}
+.box-3 {
+  border: 2px solid rgba(255, 255, 17, 0.699);
+}
+
+.box-3:hover {
+  background-color: rgb(241, 241, 66);
+}
+
+.venta {
+  font-size: 15px;
+}
+
+.valor-ticket {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+.formulario-tickets {
+  padding: 0px 190px;
+}
+
+.total {
+  background-color: rgb(177, 177, 235);
+  font-size: 18px;
+  color: black;
+  border: 1px solid rgb(155, 155, 212);
+  height: 60px; 
+  display: flex;
+  justify-content: start; 
+  align-items: center; 
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+
+
 /* Medias */
 
 @media (max-width: 976px) {
@@ -272,5 +364,18 @@
     width: 100%;
     padding: 0px 30px;
     margin: 0px 0px;
+  }
+
+  .comprar-tickets {
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario-tickets {
+    width: 100%;
+    padding: 0px 10px;
   }
 }
